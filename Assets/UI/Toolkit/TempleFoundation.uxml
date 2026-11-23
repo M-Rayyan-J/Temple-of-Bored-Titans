@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="TempleFoundation.uss" />
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="title-panel" class="title-panel">
+            <ui:Label name="game-title" text="THE TEMPLE OF BORED TITANS" class="title" />
+            <ui:Label name="phase-note" text="UI foundation — connect menu and HUD in later phases" class="subtitle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

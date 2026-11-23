@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="GameHUD.uss" />
+    <ui:VisualElement name="hud-root" class="hud-root">
+        <ui:VisualElement class="top-row">
+            <ui:Label name="symbol-counter" text="TITAN SIGILS  0 / 5" class="status-label" />
+            <ui:Label name="health-label" text="HEALTH  100 / 100" class="status-label health-label" />
+            <ui:Label name="weapon-label" text="WEAPON  RUSTED SIDEARM  8 / 24" class="status-label weapon-label" />
+        </ui:VisualElement>
+        <ui:Label name="boss-label" text="" class="boss-label" />
+        <ui:Label name="crosshair" text="+" class="crosshair" />
+        <ui:Label name="objective-label" text="OBJECTIVE  Defeat the Titans, claim five sigils, and escape" class="objective-label" />
+        <ui:Label name="prompt-label" text="E  Interact" class="prompt-label" />
+        <ui:Label name="notification-label" text="" class="notification-label" />
+        <ui:VisualElement name="ending-overlay" class="ending-overlay">
+            <ui:Label name="ending-title" text="YOU WERE SLAIN" class="ending-title" />
+            <ui:Label name="ending-body" text="The temple has claimed another life." class="ending-body" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+

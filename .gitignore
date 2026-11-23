@@ -1,0 +1,28 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Build output
+[Bb]uild/
+[Bb]uilds/
+Build_Windows/
+
+# IDE and tools
+.vs/
+.vscode/
+.unity-dotnet-cli/
+
+# Temporary files
+tmp/
+
+# Visual Studio generated files
+*.csproj
+*.sln
+*.user
+*.tmp
+*.log
